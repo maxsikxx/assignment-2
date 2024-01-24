@@ -1,2 +1,1 @@
-public interface Payeble {
-}
+
