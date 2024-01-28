@@ -1,6 +1,6 @@
 public class Student extends Person {
     private double gpa;
-    private static final double step = 36660.00;
+    private static final double step = 41898.00;
 
     public Student() {
         super();
@@ -23,9 +23,13 @@ public class Student extends Person {
     public void setGpa(double gpa) {
         this.gpa = gpa;
     }
+    @Override
+    public String getPosition() {
+        return "Student";
+    }
 
     @Override
     public String toString() {
-        return super.toString() + " зарабатывает " + getPaymentAmount() + " тенге";
+        return super.toString() + " earns " + getPaymentAmount() + " tg";
     }
 }

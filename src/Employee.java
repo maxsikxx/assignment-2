@@ -2,36 +2,39 @@ public class Employee extends Person {
     private String position;
     private double salary;
 
-    public Employee() {
-        super();
-    }
-
     public Employee(String name, String surname, String position, double salary) {
         super(name, surname);
         this.position = position;
         this.salary = salary;
     }
 
+    //Returns the employee's salary.**
     public double getSalary() {
         return salary;
     }
 
+    //Sets the employee's salary.
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
     @Override
     public String getPosition() {
         return position;
     }
+
+    //Sets the position of the employee.
     public void setPosition(String position) {
         this.position = position;
     }
+
     @Override
     public double getPaymentAmount() {
-        return salary;
+        return getSalary();
     }
+
     @Override
     public String toString() {
-        return super.toString() + " зарабатывает " + salary + " тенге";
+        return String.format("%s earns %,.2f tg",super.toString(), salary);
     }
 }

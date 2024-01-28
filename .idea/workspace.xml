@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52966e95-e57a-4bf2-b9fc-785c0015d7b2" name="Changes" comment="used inheritance and defined a superclass, used toString()">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="52966e95-e57a-4bf2-b9fc-785c0015d7b2" name="Changes" comment="wrote other methods, use toString()">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assign 2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Assign-2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Payeble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,20 +174,64 @@
       <option name="project" value="LOCAL" />
       <updated>1706125085497</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="created getters, wrote other methods, use toString(), &#10;created setters">
+      <option name="closed" value="true" />
+      <created>1706125315032</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706125315032</updated>
+    </task>
+    <task id="LOCAL-00013" summary=".">
+      <option name="closed" value="true" />
+      <created>1706125338721</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706125338721</updated>
+    </task>
+    <task id="LOCAL-00014" summary="created variables">
+      <option name="closed" value="true" />
+      <created>1706125585228</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706125585228</updated>
+    </task>
+    <task id="LOCAL-00015" summary="created getters and setters">
+      <option name="closed" value="true" />
+      <created>1706125662649</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706125662649</updated>
+    </task>
+    <task id="LOCAL-00016" summary="wrote other methods, use toString()">
+      <option name="closed" value="true" />
+      <created>1706125686587</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706125686587</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create class and interface" />
     <MESSAGE value="created variables, constructors" />
     <MESSAGE value="created getPaymentAmount()" />
-    <MESSAGE value="created variables" />
     <MESSAGE value="used constructor" />
     <MESSAGE value="create array" />
     <MESSAGE value="sorting array" />
     <MESSAGE value="the necessary classes were created, I entered data into the array, sorted the array and extracted the array elements" />
     <MESSAGE value="created getters and setters, the end used toString()" />
     <MESSAGE value="used inheritance and defined a superclass, used toString()" />
-    <option name="LAST_COMMIT_MESSAGE" value="used inheritance and defined a superclass, used toString()" />
+    <MESSAGE value="created getters, wrote other methods, use toString(), &#10;created setters" />
+    <MESSAGE value="." />
+    <MESSAGE value="created variables" />
+    <MESSAGE value="created getters and setters" />
+    <MESSAGE value="wrote other methods, use toString()" />
+    <option name="LAST_COMMIT_MESSAGE" value="wrote other methods, use toString()" />
   </component>
 </project>

@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Person implements Payable, Comparable<Person> {
     private String name;
     private String surname;
@@ -36,7 +38,7 @@ public class Person implements Payable, Comparable<Person> {
 
     @Override
     public String toString() {
-        return getPosition() + ": " + id + ". " + name + " " + surname;
+        return String.format("%s: %d. %s %s", getPosition(), id, name, surname);
     }
 
     @Override
@@ -46,6 +48,11 @@ public class Person implements Payable, Comparable<Person> {
 
     @Override
     public int compareTo(Person other) {
-        return Double.compare(other.getPaymentAmount(), getPaymentAmount());
+        // Comparison based on first name, then last name if the names are identical
+        int nameComparison = this.name.compareTo(other.name);
+        if (nameComparison != 0) {
+            return nameComparison;
+        }
+        return this.surname.compareTo(other.surname);
     }
 }
